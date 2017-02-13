@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\LaunchPointBehaviour.cs" />
      <Compile Include="Assets\MouseInteractor.cs" />
+     <Compile Include="Assets\ProjectileFiringBehaviour.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
