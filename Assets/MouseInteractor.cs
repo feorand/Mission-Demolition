@@ -1,13 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class MouseInteractor : MonoBehaviour {
+
+	public UnityEvent MouseEntered;
+	public UnityEvent MouseExited;
+
 	void OnMouseEnter() {
-		print("Mouse entered");
+		MouseEntered.Invoke();
 	}
 
 	void OnMouseExit() {
-		print("Mouse exited");
+		MouseExited.Invoke();
 	}
 }
